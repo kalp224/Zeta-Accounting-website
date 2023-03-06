@@ -1,0 +1,107 @@
+form {
+ margin: 80%;
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ width: 60%;
+ margin: 0 250px;
+}
+
+label {
+ padding-right: 240px;
+ font-size: 1.2rem;
+ margin-bottom: 0.5rem;
+}
+
+
+
+input,
+textarea {
+ width: 100%;
+ padding: 0.5rem;
+ margin-bottom: 1rem;
+ font-size: 1.2rem;
+ border: none;
+ border-radius: 5px;
+ box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+button[type="submit"] {
+ background-color: #141414ad;
+ border: none;
+ color: white;
+ padding: 1rem 2rem;
+ text-align: center;
+ text-decoration: none;
+ display: inline-block;
+ font-size: 1.2rem;
+ border-radius: 5px;
+ box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+button[type="submit"]:hover {
+ background-color: #14141468;
+}
+
+.contact-us-container {
+ padding-top: 70px;
+ display: flex;
+ flex-direction: row;
+ background-image: linear-gradient(#73777B, #2C2E43);
+}
+
+.image-container {
+ flex: 1;
+}
+
+.form-container {
+ flex: 1;
+ display: flex;
+ flex-direction: column;
+ align-items: flex-start;
+ justify-content: center;
+ color: #000;
+}
+
+.image-container img {
+ -top: 50px;
+ margin-top: 30vh;
+ margin-left: 30vh;
+ max-width: 70%;
+ height: 60vh;
+ border-radius: 10px;
+}
+
+input[type="text"] {
+
+ width: 300px;
+ background-color: #c0c0c0;
+ cursor: pointer;
+}
+
+
+
+input[type="email"] {
+ width: 300px;
+ background-color: #c0c0c0;
+ cursor: pointer;
+}
+
+textarea {
+ padding-bottom: 30px;
+ width: 300px;
+ background-color: #c0c0c0;
+ /* Change this value as per your requirement */
+}
+
+.button {
+ padding-top: 30px;
+
+}
+
+.heading1 h1 {
+ padding-left: 50px;
+ padding-bottom: 25px;
+ color: #fff;
+ font-size: 50px;
+}

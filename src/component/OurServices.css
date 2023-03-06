@@ -1,0 +1,61 @@
+.cards {
+    display: flex;
+    padding-top: 80px;
+    margin-left: 60px;
+    margin-right: 60px;
+
+
+
+}
+
+.OurServices h1 {
+    padding-top: 80px;
+    text-align: center;
+    color: #fff;
+    letter-spacing: 3px;
+    font-size: 50px;
+
+}
+
+.OurServices h3 {
+    color: #ffffffa2;
+}
+
+.OurServices p {
+    line-height: 2;
+}
+
+.service-bottom {
+
+    border: 2px solid #ccc;
+    padding: 20px;
+    width: 400px;
+    margin: 0 auto;
+    margin-right: 15px;
+    text-align: center;
+    border-radius: 10px;
+    background-color: rgba(188, 188, 188, 0.087);
+    transition: transform 0.2s ease-out;
+
+}
+
+.service-bottom:hover {
+    transform: scale(1.1);
+
+}
+
+.service-bottom i {
+    color: #fff;
+}
+
+.service-bottom p {
+    font-size: 17px;
+    margin-bottom: 10px;
+    color: #ffffff76;
+}
+
+.OurServices {
+    background-image: linear-gradient(#73777B, #2C2E43);
+    padding-bottom: 100px;
+    margin-top: -40px
+}
